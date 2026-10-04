@@ -8,10 +8,15 @@ app.use(express.json()) // For Post request.
 const userRoute = require("./User"); 
 app.use(userRoute); // 
 const paymentRoute = require("./Payment")
-app.use(paymentRoute) // 
+app.use(paymentRoute) 
 
 const studentinfoRoute = require("./studentinfo")
 app.use(studentinfoRoute) // 
+
+
+const datamodelRoute = require("./datamodel")
+app.use(datamodelRoute)
+
 
 
 
