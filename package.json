@@ -63,6 +63,7 @@
     "inherits": "^2.0.4",
     "ipaddr.js": "^1.9.1",
     "is-promise": "^4.0.0",
+    "joi": "^18.2.9",
     "math-intrinsics": "^1.1.0",
     "media-typer": "^1.1.1",
     "merge-descriptors": "^2.0.0",
@@ -97,6 +98,5 @@
     "unpipe": "^1.0.0",
     "vary": "^1.1.2",
     "wrappy": "^1.0.2"
-  },
-  "devDependencies": {}
+  }
 }

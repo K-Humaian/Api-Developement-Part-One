@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+
 // Global utility middleware
 app.use(express.json()) // For Post request.
 
